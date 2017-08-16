@@ -16,72 +16,24 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Resumen Curricular</title>
     <h1>Resumen Curricular</h1>
-      <h2>Paola Bautista Parrado</h2>
+      <h2><em>Paola Bautista Parrado</em></h2>
         <ul>
           <li><a href="../index.html">Volver</a></li>
         </ul>
-    </head>
+  </head>
   <body>
-    <h2>Educacion</h2>
-    <table border="2"
-      <thead>
-        <tr>
-          <th>Año</th>
-          <th>Institucion</th>
-          <th>Lugar</th>
-          <th>¿Culmino?</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2017</td>
-          <td>Uniempresarial</td>
-          <td>Bogota</td>
-          <td>Graduado</td>
-        </tr>
-        <tr>
-          <td>2013</td>
-          <td>Instituto Educacion y Vida</td>
-          <td>Bogota</td>
-          <td>Graduado</td>
-        </tr>
-      <tbody>
-    </table>
-    <h2>Agrega Estudios</hidden="">
-    <fieldset>
-      <p>
-      <label for="year">Año: </label>
-         <br>
-      <select name="year">
-        <option>2014</option>
-        <option>2015</option>
-        <option>2016</option>
-        <option>2017</option>
-      </select>
-    </p>
-    <p>
-      <label for="Institute">Instituto</label>
-      <input type="Institute">
-    </p>
-    <p>
-      <label for="place">Lugar: </label>
-         <br>
-      <textarea name="area-texto" rows="6" cols="70"></textarea>
-    </p>
-    <p>
-      <label for="end">¿Culmino?: </label>
-      <input type="radio" name="end"> SI
-      <input type="radio" name="end"> NO
-    </p>
-    <p>
-       <input type="button" value="Enviar">
-   </p>
-   </fieldset>
-</body>
-  <footer>
-    <p><stronge>Derechos reservados</stronge></p>
-    <li><a href="mailto:pa_hola95@hotmail.com?subject=Contact">Email: pa_hola95@hotmail.com</a></li>
-    <li>Telefono: 319 792 8092</li>
-    <li>Direccion: Calle 151A No 115-34</li>
-  </footer>
-</html>
+    <h2>Experiencia</h2>
+    <body>
+      <h3>Video - Competencias Laborales</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qVwEGjkgjy8" frameborder="0" allowfullscreen></iframe>
+      <h3>Audio - Competencias Laborales</h3>
+      <audio src="music/laboral.mp3" controls loop></audio>
+    </body>
+      <footer>
+        <p><stronge>Derechos reservados</stronge></p>
+        <li><a href="mailto:pa_hola95@hotmail.com?subject=Contact">Email: pa_hola95@hotmail.com</a></li>
+        <li>Telefono: 319 792 8092</li>
+        <li>Direccion: Calle 151A No 115-34</li>
+      </footer>
+    </html>
+
