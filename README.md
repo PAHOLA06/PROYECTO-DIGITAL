@@ -1,5 +1,3 @@
-# PROYECTO-DIGITAL
-HOJA DE VIDA DIGITAL
 <!DOCTYPE html>
 <html>
   <head>
@@ -18,30 +16,70 @@ HOJA DE VIDA DIGITAL
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Resumen Curricular</title>
     <h1>Resumen Curricular</h1>
-      <h2><em>Paola Bautista Parrado</em> </h2>
+      <h2>Paola Bautista Parrado</h2>
         <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="html/Educacion.html">Educacion</a></li>
-          <li><a href="html/Experiencia.html">Experiencia</a></li>
+          <li><a href="../index.html">Volver</a></li>
         </ul>
-  </head>
+    </head>
   <body>
-    <h2>Informacion personal</h2>
-      <h3> <img src="img/perfil.png" title=Perfil <h3></img></h3>
-      <h3>Nombre:Paola Bautista Parrado</h2>
-      <h3>Fecha nacimiento: Octubre 06 de 1995</h3>
-      <h3>Años: 22 años</h3>
-      <h3>Perfil</h3>
-      <p> Mis cualidades personales que incluyen responsabilidad, honestidad, compromiso, dinamismo, trabajo en equipo, trabajo bajo presión, toma de decisiones, organización, capacidad de comunicación y liderazgo, esperando con ellas cumplir las expectativas requeridas para el trabajo. A nivel personal poseo virtudes que me direccionan a un vasto camino
-laboral y con esto a seguir creciendo como un ser humano íntegro</p>
-      <h3>Idiomas</h3>
-        <ul>
-          <li>Español</li>
-          <li>Ingles</li>
-        </ul>
-  </body>
+    <h2>Educacion</h2>
+    <table border="2"
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Lugar</th>
+          <th>¿Culmino?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2017</td>
+          <td>Uniempresarial</td>
+          <td>Bogota</td>
+          <td>Graduado</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Instituto Educacion y Vida</td>
+          <td>Bogota</td>
+          <td>Graduado</td>
+        </tr>
+      <tbody>
+    </table>
+    <h2>Agrega Estudios</hidden="">
+    <fieldset>
+      <p>
+      <label for="year">Año: </label>
+         <br>
+      <select name="year">
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+      </select>
+    </p>
+    <p>
+      <label for="Institute">Instituto</label>
+      <input type="Institute">
+    </p>
+    <p>
+      <label for="place">Lugar: </label>
+         <br>
+      <textarea name="area-texto" rows="6" cols="70"></textarea>
+    </p>
+    <p>
+      <label for="end">¿Culmino?: </label>
+      <input type="radio" name="end"> SI
+      <input type="radio" name="end"> NO
+    </p>
+    <p>
+       <input type="button" value="Enviar">
+   </p>
+   </fieldset>
+</body>
   <footer>
-    <p>Derechos reservados</p>
+    <p><stronge>Derechos reservados</stronge></p>
     <li><a href="mailto:pa_hola95@hotmail.com?subject=Contact">Email: pa_hola95@hotmail.com</a></li>
     <li>Telefono: 319 792 8092</li>
     <li>Direccion: Calle 151A No 115-34</li>
